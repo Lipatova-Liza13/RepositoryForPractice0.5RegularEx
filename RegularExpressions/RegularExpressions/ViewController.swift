@@ -9,7 +9,16 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    @IBOutlet weak var labelTask1: UILabel!
+    @IBOutlet weak var labelTask2: UILabel!
+    @IBOutlet weak var labelTask3: UILabel!
+    @IBOutlet weak var labelTask4: UILabel!
+    @IBOutlet weak var textAnswer1: UITextField!
+    @IBOutlet weak var textAnswer2: UITextField!
+    @IBOutlet weak var textAnswer3: UITextField!
+    @IBOutlet weak var textAnswer4: UITextField!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
