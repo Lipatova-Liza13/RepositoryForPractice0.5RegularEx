@@ -72,14 +72,23 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4tX-UK-foI">
                                         <rect key="frame" x="263" y="237" width="53" height="34"/>
                                         <state key="normal" title="Check"/>
+                                        <connections>
+                                            <action selector="buttonCheck2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="v2P-pd-76Y"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kOB-Kq-MMb">
                                         <rect key="frame" x="263" y="398" width="53" height="34"/>
                                         <state key="normal" title="Check"/>
+                                        <connections>
+                                            <action selector="buttonCheck3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aQm-tu-iT7"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aRo-sM-FXx">
                                         <rect key="frame" x="263" y="559" width="53" height="34"/>
                                         <state key="normal" title="Check"/>
+                                        <connections>
+                                            <action selector="buttonCheck4:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Gfh-Pc-xtl"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
