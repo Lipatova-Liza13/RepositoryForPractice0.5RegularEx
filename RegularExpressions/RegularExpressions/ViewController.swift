@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITextFieldDelegate{
     @IBOutlet weak var labelTask1: UILabel!
     @IBOutlet weak var labelTask2: UILabel!
     @IBOutlet weak var labelTask3: UILabel!
@@ -22,8 +22,30 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        textAnswer1.delegate = self
+       // regularExp()
+    }
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        // Hide the keyboard.
+        textField.resignFirstResponder()
+        return true
+
+    }
+    func textFieldDidEndEditing(_ textField: UITextField) {
+        textAnswer1.text = textField.text
+    
+    }
+    
+    @IBAction func Check1(_ sender: Any) {
+        var nomer = ""
+        nomer = textAnswer1.text!
+        if (nomer.range(of: "\\(\\+380\\)[0-9]{9}", options: .regularExpression) == nil){
+            textAnswer1.backgroundColor = .red
+        }
+        else{
+            textAnswer1.backgroundColor = .green
+        }
     }
 
-
 }
-
