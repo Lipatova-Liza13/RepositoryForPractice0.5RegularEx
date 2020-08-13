@@ -30,6 +30,7 @@ class ViewController: UIViewController, UITextFieldDelegate{
         labelTask2.text = "Your name and surname"
         labelTask3.text = "Your date of birth"
         labelTask4.text = "Your gmail post"
+        
     }
     
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
