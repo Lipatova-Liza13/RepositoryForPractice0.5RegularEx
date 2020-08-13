@@ -20,6 +20,7 @@
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bI0-80-P7A">
                                         <rect key="frame" x="60" y="20" width="214" height="21"/>
+                                        <color key="backgroundColor" red="0.91556686162948608" green="0.8825647234916687" blue="0.30358427762985229" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -31,6 +32,7 @@
                                     </textField>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VkW-DO-CsK">
                                         <rect key="frame" x="60" y="181" width="214" height="21"/>
+                                        <color key="backgroundColor" red="0.9157605767250061" green="0.87248414754867554" blue="0.33344441652297974" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -47,6 +49,7 @@
                                     </textField>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W2H-mD-QFj">
                                         <rect key="frame" x="60" y="503" width="214" height="21"/>
+                                        <color key="backgroundColor" red="0.9157605767250061" green="0.87248414754867554" blue="0.33344441652297974" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -58,34 +61,51 @@
                                     </textField>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fwb-fv-5B9">
                                         <rect key="frame" x="60" y="342" width="214" height="21"/>
+                                        <color key="backgroundColor" red="0.9157605767250061" green="0.87248414754867554" blue="0.33344441652297974" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mW4-WD-Rco">
                                         <rect key="frame" x="263" y="76" width="53" height="34"/>
-                                        <state key="normal" title="Check"/>
+                                        <color key="backgroundColor" red="0.011937499977648258" green="0.98357397317886353" blue="0.90039902925491333" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                        <state key="normal" title="Check">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
                                         <connections>
                                             <action selector="Check1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Eh5-vV-0wg"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4tX-UK-foI">
                                         <rect key="frame" x="263" y="237" width="53" height="34"/>
-                                        <state key="normal" title="Check"/>
+                                        <color key="backgroundColor" red="0.013791677542030811" green="0.98850530385971069" blue="0.83807134628295898" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                        <state key="normal" title="Check">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
                                         <connections>
                                             <action selector="buttonCheck2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="v2P-pd-76Y"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kOB-Kq-MMb">
                                         <rect key="frame" x="263" y="398" width="53" height="34"/>
-                                        <state key="normal" title="Check"/>
+                                        <color key="backgroundColor" red="0.027868285775184631" green="0.97670894861221313" blue="0.75303930044174194" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                        <state key="normal" title="Check">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
                                         <connections>
                                             <action selector="buttonCheck3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aQm-tu-iT7"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aRo-sM-FXx">
                                         <rect key="frame" x="263" y="559" width="53" height="34"/>
-                                        <state key="normal" title="Check"/>
+                                        <color key="backgroundColor" red="0.04341115802526474" green="0.96912342309951782" blue="0.79930311441421509" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                        <state key="normal" title="Check">
+                                            <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        </state>
                                         <connections>
                                             <action selector="buttonCheck4:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Gfh-Pc-xtl"/>
                                         </connections>
@@ -136,7 +156,7 @@
                                 </constraints>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" red="0.94520586729049683" green="0.95097953081130981" blue="0.83423405885696411" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="ckE-TN-WME" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="60" id="2yf-yS-lmx"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ckE-TN-WME" secondAttribute="trailing" constant="40" id="LZK-wg-1R1"/>
@@ -158,7 +178,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="137.68115942028987" y="69.642857142857139"/>
+            <point key="canvasLocation" x="139" y="76"/>
         </scene>
     </scenes>
 </document>
