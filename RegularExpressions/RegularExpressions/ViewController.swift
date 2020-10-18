@@ -60,7 +60,7 @@ class ViewController: UIViewController, UITextFieldDelegate{
     @IBAction func buttonCheck2(_ sender: Any) {
         var nameSurn = ""
         nameSurn = textAnswer2.text!
-        if (nameSurn.range(of: "^[A-Z][a-z]+ [A-Z][a-z]+$", options: .regularExpression) == nil){
+        if (nameSurn.range(of: "^[A-Z][a-z]{2,14}$", options: .regularExpression) == nil){
             textAnswer2.backgroundColor = .red
         }
         else{
